@@ -1,0 +1,20 @@
+.centerText{
+    padding-top: 30px;
+    text-align: center;
+}
+
+startBlockInfo{
+    font-size: 120%;
+    padding-left: 30px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-dark1{
+    outline: 2px solid #000000;
+    border: 3px solid #050505;
+    border-radius: 20px; /* Радиус скругления */
+}
