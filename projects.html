@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>FiolDoll</title>
+    <link rel="shortcut icon" href="avatar.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="text-align:center;" id="body">
+    <br>
+    <div class="subBody">
+        <panel>
+            <h1 class="yourName">FiolDoll</h1>
+            <h4>Artyom Golubev</h4>
+        </panel>
+        <panel>
+            <button onclick="openPage('index')" class="buttonPage">Main</button>
+            <button onclick="openPage('projects')" class="buttonPage">Projects</button>
+            <button onclick="openPage('links')" class="buttonPage">Links</button>
+        </panel>
+        <panel>
+            <h3>Shop of Peace</h3>
+            <p>Social game about developing your store</p>
+            <p>Status: develop</p>
+            <img class="screen" src="photos/SOP.png">
+        </panel>
+        <panel>
+            <h3><a href="https://fioldoll.itch.io/blossom">Blossom</a></h3>
+            <p>Game for Cozy Spring jam. It this game needs to protect the spring from snow Artist - The.pixelist.creator</p>
+            <p>Status: end</p>
+            <img class="screen" src="photos/BL.png">
+        </panel>
+        <panel>
+            <h3><a href="https://fioldoll.itch.io/kitty-attack">Kitty Attack</a></h3>
+            <p>Game for Summer JAM. Dungeon game. The main character is a kitten. Not everything has been implemented. Artist - Yukichi</p>
+            <p>Status: end</p>
+            <img class="screen" src="photos/KA.png">
+        </panel>
+
+        <br><h2>Archive</h2>
+        <panel>
+            <h3>She in You</h3>
+            <p>Horror-detective game in the form of 2D. The hero has to explore the building, make a choice. Closed, because team broke</p>
+            <p>Status: closed</p>
+            <img class="screen" src="photos/SIY.png">
+        </panel>
+        <panel>
+            <h3>Your Soul</h3>
+            <p>A platformer with a bit of history. Special mechanics - platforms are generated right during the game</p>
+            <p>Status: closed</p>
+        </panel>
+
+        <br><h2>Other</h2>
+        <panel>
+            <h3>First Blender work :D</h3>
+            <img class="screen" src="photos/firstBlend.png">
+        </panel>
+        <panel>
+            <h3>Work-projects</h3>
+            <li>Site-portfolio</li>
+            <li>CRM</li>
+        </panel>
+    </div>
+    <br>
+</body>
+<script>
+    function openPage(name) {
+        window.location.href = name + '.html';
+    }
+</script>
+
+</html>
